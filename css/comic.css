@@ -135,6 +135,23 @@
 			}
 
 
+		/* product card add to basket button*/
+		.btn-primary {
+			background-color: white;
+			color: black;
+			border: 1px solid #702931;
+			text-decoration: none;
+			display: inline-block;     
+			transition: all 0.3s ease; 
+		}
+
+		.btn-primary:hover {
+			background-color: #702931;  
+			color: white;                
+			border-color: #702931; 
+		}
+
+
 		/* Banner */
 		.banner-container {
 			display: flex;
