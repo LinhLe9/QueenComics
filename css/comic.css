@@ -77,10 +77,14 @@
 		}
 	
 			
-		/*Heading */
+		/*Heading session*/
 		.category-heading, 
 		.h2{
 			font-family: Playfair Display;
+		}
+
+		.h2{
+			width: 350px;
 		}
 		
 		/* Carousel*/
@@ -114,7 +118,8 @@
 			max-height: 200px;
 			object-fit: cover; 
 		}
-			
+
+		/* set alignment for product cards*/
 		.carousel-item .product-card {
 			display: flex;
 			flex-direction: column;
