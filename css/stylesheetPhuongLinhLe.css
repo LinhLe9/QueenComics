@@ -1,3 +1,7 @@
+img-thumbnail {
+  width: 100%; /* or a fixed value */
+  height: auto; /* Maintains aspect ratio */
+}
 /* comic cover style*/
 .overlay {
     position: absolute;
