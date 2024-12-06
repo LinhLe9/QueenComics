@@ -48,7 +48,7 @@ function toggleCart(show) {
 }
 
 
-type="text/javascript">
+
 function showSecretSpiderMan() {
 document.getElementById('demo').innerHTML = "Marvel's first superhero wasn't Spider-Man but rather The Human Torch.";
 }
