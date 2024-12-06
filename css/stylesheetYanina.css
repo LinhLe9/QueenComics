@@ -43,7 +43,7 @@ body {
       color:#000000; /*Color for text*/
 }
 .slider-container {
-      width: 80%;
+      width: 50%;
       overflow: hidden;
       border: 2px solid #ddd;
       border-radius: 10px;
@@ -54,7 +54,7 @@ body {
       animation: slide 10s linear infinite;
 }
 .slider img {
-      width: 100%;
+      width: 70%;
       flex-shrink: 0;
 }
 @keyframes slide {
