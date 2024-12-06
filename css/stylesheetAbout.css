@@ -1,0 +1,61 @@
+body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f3f3f3;
+      color:#000000; /*Color for text*/
+}
+.BlockColour {
+  height: 25vh; /* Cada bloque ocupa 25% de la altura de la pantalla */
+  width: 100%;  /* Se extiende a todo el ancho */
+}
+
+.Block1 {
+  background-color: #5084b7; 
+}
+
+.Block2 {
+  background-color: #cf4b3b; 
+}
+
+.Block3 {
+  background-color: #fac94f;
+}
+
+.Block4 {
+  background-color: #702931; 
+}
+img {
+    transition: box-shadow 0.4s ease; /* light shadow down the picture*/
+}
+
+img:hover {
+	transform: scale(1.05); /* "Zoom" */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+
+.containerImagen {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+
+}	
+.TwoCol {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 80%;  
+	background-color: #fbe9e7;
+	border: 2px solid #edbb99;/*edge*/
+	padding:20px 10px 10px 10px;
+	border-radius: 4px; 
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    margin:auto;
+}
