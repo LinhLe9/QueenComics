@@ -1,14 +1,12 @@
-        .cart-box {
+     #cart-box {
+            display: none; /* hide it at first */
             position: fixed;
-            top: 50px; 
-            right: 10px; 
+            top: 50px;
+            right: 20px;
             width: 300px;
-            max-height: 90%; 
-            background-color: #fff;
+            background-color: #F8F8F8	;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            overflow-y: auto; /* Enable scrolling when content exceeds height */
-            z-index: 9999; /* Ensure the cart is above other content */
         }
         .cart-item {
             margin: 10px 0;
@@ -16,6 +14,7 @@
             justify-content: space-between;
             align-items: center;
         }
+
         .cart-item span {
             flex: 1;
         }
