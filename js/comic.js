@@ -21,7 +21,7 @@
         
         document.getElementById('cart-items').appendChild(cartItem);
         totalPrice += productPrice;
-        document.getElementById('total-price').textContent = totalPrice; 
+        document.getElementById('total-price').textContent = totalPrice.toFixed(2); 
         openCart();
     }
 
