@@ -6,7 +6,7 @@
             display: none; /* set hidden at first */
             position: fixed;
             top: 0px; /* set it sticks to top */
-            right: -300px; /* set it sticks to right side */
+            right: -50px; /* set it sticks to right side */
             width: 300px;
             background-color: #F8F8F8;
             padding: 20px;
