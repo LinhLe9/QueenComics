@@ -1,51 +1,41 @@
-let cart = [];
-let totalPrice = 0;
+    let totalPrice = 0;
 
-// add item function
-function addToCart(productName, price) {
-    cart.push({ name: productName, price });
-    totalPrice += price;
-    toggleCart(true);
-    updateCart();
-}
+    // show cart box
+    function openCart() {
+        document.getElementById('cart-box').style.display='block'; 
+    }
 
-// remove item function
-function removeItem(index) {
-    totalPrice -= cart[index].price;
-    cart.splice(index, 1);
-    updateCart();
-}
+    // hide cart box
+    function closeCart() {
+        document.getElementById('cart-box').style.display='none'; 
+    }
 
-// update cart
-function updateCart() {
-const cartItemsDiv = document.getElementById('cart-items');
-	cartItemsDiv.innerHTML = ''; 
+    // create a div element to show cart item
+    function addToCart(productName, productPrice) {
+        let cartItem = document.createElement('div');
+        cartItem.classList.add('cart-item');
 
-// Add each item in the cart to the cart box
-cart.forEach((item, index) => {
-const div = document.createElement('div');
-div.className = 'cart-item';
-div.innerHTML = `
-    <span>${item.name}</span>
-    <span>€${item.price.toFixed(2)}</span>
-    <span class="remove-icon" onclick="removeItem(${index})">&times;</span>`;
+        cartItem.innerHTML = `${productName} €${productPrice}
+			<button class="close-btn" onclick="removeItem(this, ${productPrice})">X</button>`;
 
-cartItemsDiv.appendChild(div);
-   });
+        
+        document.getElementById('cart-items').appendChild(cartItem);
+        totalPrice += productPrice;
+        document.getElementById('total-price').textContent = totalPrice; 
+        openCart();
+    }
 
-// Count total price
-document.getElementById('total-price').innerText = totalPrice.toFixed	(2);
-}
+    // Remove  item
+    function removeItem(button, productPrice) {
+        button.parentElement.remove();
+        totalPrice -= productPrice;
+        document.getElementById('total-price').textContent = totalPrice;
 
-// Control the visibility of the cart box
-function toggleCart(show) {
-	const cartBox = document.getElementById('cart-box');
-	if (show) {
-		cartBox.classList.add('active'); 
-	} else {
-		cartBox.classList.remove('active'); 
-	}
-}
+
+        if (document.getElementById('cart-items').children.length === 0) {
+            closeCart(); 
+        }
+    }
 
 
 
