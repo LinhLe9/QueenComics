@@ -1,75 +1,42 @@
-		  /* Add cart*/
-		.cart-container {
-			position: relative;
-		}
-	
-		.cart-box {
-			display: none;  /* set cart box is hidden first*/
-			position: fixed;
-			top: 0;
-			right: -300px; 
-			width: 300px;
-			background: linear-gradient(180deg, #ffffff, #f1f1f1);
-			padding: 20px;
-			transition: right 0.3s ease; 
-			z-index: 9999;
-			font-family: 'Arial', sans-serif;
-			color: #333;
-			max-height: 90%; 
-			overflow-y: auto; 
-			border-radius: 8px;
-			}
-	
-	        .cart-box h2 {
-			font-family: Playfair Display;
-			font-size: 1.5em;
-			font-weight: bold;
-			color:  #702931; 
-			text-align: center;
-			margin-bottom: 20px;
-			text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
-		}
-	        .cart-box .cart-item {
-	            	display: flex;
-	            	justify-content: space-between;
-	            	margin-bottom: 10px;
-			font-size: 0.9em;
-			color: #555;
-	        }
-	
-	        .cart-box .cart-item:last-child {
-	            	margin-bottom: 0;
-	        }
-	
-	        .cart-box .total {
-	            	font-size: 1.2em;
-			font-weight: bold;
-			color: #222;
-			text-align: right;
-	            	margin-top: 20px;
-	        }
-	
-	        .cart-box .close-btn {
-	            	display: block;
-	           	text-align: center;
-	            	margin-top: 10px;
-	            	background: #dc3545;
-	            	color: white;
-	            	padding: 10px;
-	            	border: none;
-	            	cursor: pointer;
-	        }
-	
-		.remove-icon {
-			color: #e0554c;
-			font-size: 1.2em;
-			cursor: pointer;
-			margin-left: 10px;
-		}
-	
-		.remove-icon:hover {
-			color: #c9443c;
-		}
+        /* Basic styling for the cart */
+        #cart-box {
+            display: none; /* Initially hidden */
+            position: fixed;
+            top: 50px;
+            right: 20px;
+            width: 300px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .cart-item {
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .cart-item span {
+            flex: 1;
+        }
+        .total {
+            font-weight: bold;
+        }
+        .close-btn {
+            background-color: transparent;
+            border: none;
+            color: red;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .close-btn:hover {
+            color: darkred;
+        }
+        .close-btn:focus {
+            outline: none;
+        }
+        .close-btn:active {
+            color: darkred;
+        }
 	
 			
 		/*All Heading session for the name of Spiderman....*/
