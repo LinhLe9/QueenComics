@@ -77,20 +77,20 @@
 		}
 	
 			
-		/*Heading session*/
+		/*All Heading session for the name of Spiderman....*/
 		.category-heading {
 			font-family: Playfair Display;
 			cursor:pointer;
 		}
 
-		#demo{
+		/*JS hidden message for Spiderman, Avenger...*/
+		#demo, #demo2, #demo3, #demo4{
 			font-family: Playfair Display;
 			color: gray;
 			text-align: center;
 		}
 		
 		/* Carousel*/
-
 		.carousel-control-prev,
 		.carousel-control-next {
 			top: 50%; 
@@ -121,7 +121,7 @@
 			object-fit: cover; 
 		}
 
-		/* set alignment for product cards*/
+		/* set alignment for Spiderman,Avenger....product cards*/
 		.carousel-item .product-card {
 			display: flex;
 			flex-direction: column;
@@ -160,7 +160,7 @@
 		}
 
 
-		/* Banner */
+		/* The red bottom banner */
 		.banner-container {
 			display: flex;
 			justify-content: center; 
@@ -168,6 +168,7 @@
 			height: 100px;       
 		}
 
+		/* The red bottom banner image*/
 		.promotion-banner-picture2 {
 			max-width: 100%;
 			height: auto; 
