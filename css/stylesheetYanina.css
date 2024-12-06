@@ -40,26 +40,30 @@ body {
       height: 100vh;
       background-color: #f3f3f3;
     }
-    .slider-container {
+.slider-container {
       width: 80%;
       overflow: hidden;
       border: 2px solid #ddd;
       border-radius: 10px;
       position: relative;
-    }
-    .slider {
+}
+.slider {
       display: flex;
       animation: slide 10s linear infinite;
-    }
-    .slider img {
+}
+.slider img {
       width: 100%;
       flex-shrink: 0;
-    }
-    @keyframes slide {
+}
+@keyframes slide {
       0% { transform: translateX(0); }
       20% { transform: translateX(-100%); }
       40% { transform: translateX(-200%); }
       60% { transform: translateX(-300%); }
       80% { transform: translateX(-400%); }
       100% { transform: translateX(0); }
-    }
+}
+.carousel .card {
+    max-width: 600px;
+    margin: 0 auto;
+}
