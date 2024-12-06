@@ -59,3 +59,19 @@ img:hover {
 	color: #fdfefe;/*White color*/
 	text-decoration: none;
 }
+.card {
+      height: 350px; /* Altura fija para todas las tarjetas */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+.card-img-top {
+      height: 200px; /* Altura fija para las imágenes */
+      object-fit: cover; /* Ajusta la imagen dentro del espacio disponible */
+}
+.card-body {
+      flex-grow: 1; /* Asegura que el cuerpo ocupe el espacio necesario */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
