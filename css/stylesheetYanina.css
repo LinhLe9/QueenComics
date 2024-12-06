@@ -13,23 +13,7 @@ img:hover {
 	padding: 5px;
 
 }	
-.TwoCol {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 80%;  
-	background-color: #fbe9e7;
-	border: 2px solid #edbb99;/*edge*/
-	padding:20px 10px 10px 10px;
-	border-radius: 4px; 
-}
 
-.flexCol {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 40%;
-    margin:auto;
-}
 
 .bton{
 	display: inline-block;
@@ -81,23 +65,19 @@ body {
  margin-bottom: 500px; /*room btwn bars */
 }
 
-.BlockColour {
-  height: 25vh; /* Cada bloque ocupa 25% de la altura de la pantalla */
-  width: 100%;  /* Se extiende a todo el ancho */
+.card {
+      height: 350px; /* Altura fija para todas las tarjetas */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
 }
-
-.Block1 {
-  background-color: #5084b7; 
+.card-img-top {
+      height: 200px; /* Altura fija para las imágenes */
+      object-fit: cover; /* Ajusta la imagen dentro del espacio disponible */
 }
-
-.Block2 {
-  background-color: #cf4b3b; 
-}
-
-.Block3 {
-  background-color: #fac94f;
-}
-
-.Block4 {
-  background-color: #702931; 
+.card-body {
+      flex-grow: 1; /* Asegura que el cuerpo ocupe el espacio necesario */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
 }
