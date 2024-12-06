@@ -5,9 +5,12 @@
             top: 50px;
             right: 20px;
             width: 300px;
-            background-color: #fff;
+            background-color: linear-gradient(180deg, #ffffff, #f1f1f1);
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	    z-index: 9999;  /*avoid cart box content being block */
+	    font-family: Playfair Display;
+		
         }
         .cart-item {
             margin: 10px 0;
@@ -20,11 +23,12 @@
         }
         .total {
             font-weight: bold;
+		color: #222;
         }
         .close-btn {
             background-color: transparent;
             border: none;
-            color: red;
+            color: #dc3545;
             font-size: 18px;
             cursor: pointer;
         }
@@ -35,7 +39,7 @@
             outline: none;
         }
         .close-btn:active {
-            color: darkred;
+            color: #dc3545;
         }
 	
 			
