@@ -1,13 +1,14 @@
         .cart-container {
 	position: relative;
 		}
+
 	#cart-box {
             display: none; /* set hidden at first */
             position: fixed;
-            top: 50px;
-            right: 20px;
+            top: 0px; /* set it sticks to top */
+            right: -300px; /* set it sticks to right side */
             width: 300px;
-            background-color: #F5F5F5	;
+            background-color: #F8F8F8;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	    z-index: 9999;  /*avoid cart box content being block */
