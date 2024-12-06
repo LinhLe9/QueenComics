@@ -50,5 +50,5 @@ function toggleCart(show) {
 
 
 function showSecretSpiderMan() {
-document.getElementById('demo').innerHTML = "Marvel's first superhero wasn't Spider-Man but rather The Human Torch.";
+document.getElementById('demo').innerHTML = "Swing through the streets of New York with the world's most beloved superhero. Witness Peter Parker's incredible journey of courage, responsibility, and extraordinary power as he battles villains, balances life, and protects those who cannot protect themselves.";
 }
