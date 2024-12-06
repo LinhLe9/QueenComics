@@ -37,7 +37,6 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
       background-color: #f3f3f3;
       font-family: Arial, sans-serif;
       color:#000000; /*Color for text*/
@@ -76,17 +75,17 @@ body {
 }
 
 .block1 {
-  background-color: #5084b7; /* Rojo claro */
+  background-color: #5084b7; 
 }
 
 .block2 {
-  background-color: #cf4b3b; /* Amarillo */
+  background-color: #cf4b3b; 
 }
 
 .block3 {
-  background-color: #fac94f; /* Verde */
+  background-color: #fac94f;
 }
 
 .block4 {
-  background-color: #702931; /* Azul */
+  background-color: #702931; 
 }
