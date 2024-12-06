@@ -1,12 +1,3 @@
-body {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #f3f3f3;
-      color:#000000; /*Color for text*/
-}
 .BlockColour {
   height: 25vh; /* Cada bloque ocupa 25% de la altura de la pantalla */
   width: 100%;  /* Se extiende a todo el ancho */
