@@ -1,23 +1,15 @@
-        .cart-container {
-	position: relative;
-		}
-.cart-box {
-			position: fixed;
-			top: 0;
-			right: -300px; 
-			width: 300px;
-			background: linear-gradient(180deg, #ffffff, #f1f1f1);
-			padding: 20px;
-			box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
-			transition: right 0.3s ease; 
-			z-index: 9999;
-			font-family: 'Arial', sans-serif;
-			color: #333;
-			max-height: 90%; 
-			overflow-y: auto; 
-			border-radius: 8px;
-			}
-
+        .cart-box {
+            position: fixed;
+            top: 50px; 
+            right: 10px; 
+            width: 300px;
+            max-height: 90%; 
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-y: auto; /* Enable scrolling when content exceeds height */
+            z-index: 9999; /* Ensure the cart is above other content */
+        }
         .cart-item {
             margin: 10px 0;
             display: flex;
