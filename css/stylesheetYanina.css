@@ -77,6 +77,9 @@ body {
     max-width: 400px;
     margin: 0 auto;
 }
+.carousel-container {
+ margin-bottom: 50px; /*room btwn bars */
+}
 
 .BlockColour {
   height: 25vh; /* Cada bloque ocupa 25% de la altura de la pantalla */
