@@ -40,7 +40,7 @@ body {
       height: 100vh;
       background-color: #f3f3f3;
       font-family: Arial, sans-serif;
-      color:#702931; /*Color for text*/
+      color:#000000; /*Color for text*/
 }
 .slider-container {
       width: 80%;
@@ -68,4 +68,25 @@ body {
 .carousel .card {
     max-width: 600px;
     margin: 0 auto;
+}
+
+.block {
+  height: 25vh; /* Cada bloque ocupa 25% de la altura de la pantalla */
+  width: 100%;  /* Se extiende a todo el ancho */
+}
+
+.block1 {
+  background-color: #5084b7; /* Rojo claro */
+}
+
+.block2 {
+  background-color: #cf4b3b; /* Amarillo */
+}
+
+.block3 {
+  background-color: #fac94f; /* Verde */
+}
+
+.block4 {
+  background-color: #702931; /* Azul */
 }
