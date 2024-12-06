@@ -4,13 +4,13 @@
 		}
 	
 		.cart-box {
+			display: none;  /* set cart box is hidden first*/
 			position: fixed;
 			top: 0;
 			right: -300px; 
 			width: 300px;
 			background: linear-gradient(180deg, #ffffff, #f1f1f1);
 			padding: 20px;
-			box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
 			transition: right 0.3s ease; 
 			z-index: 9999;
 			font-family: 'Arial', sans-serif;
@@ -19,10 +19,6 @@
 			overflow-y: auto; 
 			border-radius: 8px;
 			}
-	
-	        .cart-box.active {
-	            	right: 0; 
-	        }
 	
 	        .cart-box h2 {
 			font-family: Playfair Display;
@@ -61,7 +57,6 @@
 	            	color: white;
 	            	padding: 10px;
 	            	border: none;
-	            	border-radius: 5px;
 	            	cursor: pointer;
 	        }
 	
