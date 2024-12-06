@@ -50,3 +50,12 @@ img:hover {
     flex-basis: 40%;
     margin:auto;
 }
+.ton{
+	display: inline-block;
+	width: 50px;
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+	padding: 15px 30px;
+	color: #fdfefe;/*White color*/
+	text-decoration: none;
+}
