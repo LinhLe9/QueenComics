@@ -78,9 +78,9 @@
 	
 			
 		/*Heading session*/
-		.category-heading, 
-		.h2{
+		.category-heading {
 			font-family: Playfair Display;
+			cursor:pointer;
 		}
 
 		.p{
