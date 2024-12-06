@@ -49,6 +49,18 @@ function toggleCart(show) {
 
 
 
-function showSecretSpiderMan() {
+function showMessageSpiderMan() {
 document.getElementById('demo').innerHTML = "Swing through the streets of New York with the world's most beloved superhero. Witness Peter Parker's incredible journey of courage, responsibility, and extraordinary power as he battles villains, balances life, and protects those who cannot protect themselves.";
+}
+
+function showMessageAvenger() {
+document.getElementById('demo').innerHTML = "Join a team of unlikely heroes as they rise to protect the world from apocalyptic threats. With unmatched powers, deep alliances, and epic battles, the AVENGER team stands as Earth's final line of defense. Experience their journey of courage, sacrifice, and the unbreakable bond that makes them stronger together.";
+}
+
+function showMessageVenom() {
+document.getElementById('demo').innerHTML = "Unleash the symbiote's dark power in this thrilling, gritty saga. Follow Eddie Brock as he battles inner demons and outer threats while bonded to the alien symbiote that gives him extraordinary abilities. With a twisted sense of justice and an unyielding hunger, VENOM is an anti-hero unlike any other—fighting both for redemption and survival in a world that fears him.";
+}
+
+function showMessageHulk() {
+document.getElementById('demo').innerHTML = "Smash your way through the explosive world of Bruce Banner, a man cursed with an unstoppable rage. When anger turns him into the mighty HULK, chaos erupts, and nothing can stand in his way. Witness the struggle between man and monster, as Banner fights to control the beast within while facing foes that threaten the very fabric of reality. HULK isn’t just about power—it's about the battle for identity, survival, and the limits of human strength.";
 }
