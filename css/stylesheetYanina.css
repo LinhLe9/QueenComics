@@ -62,7 +62,7 @@ body {
     margin: 0 auto;
 }
 .carousel-container {
- margin-bottom: 500px; /*room btwn bars */
+ margin-bottom: 500px;!important /*room btwn bars */
 }
 
 .card {
