@@ -32,7 +32,7 @@ body {
       justify-content: center;
       align-items: center;
       background-color: #f3f3f3;
-      color:#ffffff; /*Color for text*/
+      color:#000000; /*Color for text*/
 }
 .slider-container {
       width: 50%;
