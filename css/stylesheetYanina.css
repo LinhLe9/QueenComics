@@ -78,23 +78,23 @@ body {
     margin: 0 auto;
 }
 
-.block {
+.BlockColour {
   height: 25vh; /* Cada bloque ocupa 25% de la altura de la pantalla */
   width: 100%;  /* Se extiende a todo el ancho */
 }
 
-.block1 {
+.Block1 {
   background-color: #5084b7; 
 }
 
-.block2 {
+.Block2 {
   background-color: #cf4b3b; 
 }
 
-.block3 {
+.Block3 {
   background-color: #fac94f;
 }
 
-.block4 {
+.Block4 {
   background-color: #702931; 
 }
