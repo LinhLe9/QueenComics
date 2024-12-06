@@ -39,7 +39,9 @@ body {
       align-items: center;
       height: 100vh;
       background-color: #f3f3f3;
-    }
+      font-family: Arial, sans-serif;
+      color:#702931; /*Color for text*/
+}
 .slider-container {
       width: 80%;
       overflow: hidden;
