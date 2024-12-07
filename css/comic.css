@@ -70,6 +70,10 @@
 }
 		
 /* Carousel*/
+.carousel-inner {
+    	height: 400px;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
 	top: 50%; 
