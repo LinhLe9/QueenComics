@@ -124,10 +124,241 @@
 		  </button>
 		</div>
 
+
+	<!-- Cart box -->		
+		<div class="cart-container">
+			<div class="cart-box" id="cart-box">
+				<h2> Your Cart</h2>
+				<div id="cart-items"></div>
+				<p class="total">Total: €<span id="total-price">0</span></p>
+				<button class="close-btn" onclick="closeCart()">Close </button>
+			</div>
+		</div>
+	
+		<!-- PROMOTION BANNER-->
+		<div class="container mt-5">
+			<div class="row text-center">
+				<div class="col-md-6">
+					<img class="promotion-banner-picture img-fluid" src="images/homepage/promotion_banner1.png" alt="Sign Up Banner 1 ">	
+				</div>
+				
+				<div class="col-md-6 promotion-banner">
+					<img class="promotion-banner-picture img-fluid " src="images/homepage/promotion_banner2.png" alt="Sign Up Banner 2">
+				</div>
+			</div>
+
+
+		<!-- Best Seller-->	
+		<div class="container mt-5 mb-4 text-center">
+		 <h2 class="heading"> 
+		Bestsellers
+		</h2> 
+		<a class="paragraph" href="html/comic.html">Discover more comics</a>
+		</p>
+		</div>
+		
+		<!--BootStrap Card-->
+		<div class="container bestseller-grid mt-3">
+			<div class="row">
+						<!--Card 1-->
+						<div class="col-sm-4 col-md-2 border">
+							<div class="product-card text-center">
+								<img src="images/products/spiderman1.png" class="img-fluid mt-5 mb-2" alt="Spider-Man Freshman Year">
+								<h5 class="comic-title">Spider-Man Freshman Year</h5>
+								<p class="price">€9.99</p>
+								<button class="btn btn-primary btn-sm mx-3 mb-5" onclick="addToCart('Spider-Man Freshman Year', 9.99)">ADD TO BASKET</button>
+							</div>
+						</div>
+
+						<!--Card 2-->
+						<div class="col-sm-4 col-md-2 border">
+							<div class="product-card text-center">
+								<img src="images/products/spiderman2.png" class="img-fluid mt-5 mb-2" alt="The Amazing Spider-Man Vol. 1">
+								<h5 class="comic-title">The Amazing Spider-Man Vol. 1</h5>
+								<p class="price">€11.99</p>
+								<button class="btn btn-primary btn-sm mx-3 mb-5" onclick="addToCart('The Amazing Spider-Man Vol. 1', 11.99)">ADD TO BASKET</button>
+							</div>
+						</div>
+						
+						
+						<!--Card 3-->
+						<div class="col-sm-4 col-md-2 border">
+							<div class="product-card text-center">
+								<img src="images/products/avenger1.png" class="img-fluid mt-5 mb-2" alt="Avengers Vol.1: The Impossible City">
+								<h5 class="comic-title">Avengers Vol.1: The Impossible City</h5>
+								<p class="price">€19.99</p>
+								<button class="btn btn-primary btn-sm mx-3 mb-5" onclick="addToCart('Avengers Vol.1: The Impossible City', 19.99)">ADD TO BASKET</button>
+							</div>
+						</div>
+
+						<!--Card 4-->
+						<div class="col-sm-4 col-md-2 border">
+							<div class="product-card text-center">
+								<img src="images/products/venom1.png" class="img-fluid mt-5 mb-2" alt="Venom Lethal Protector - Life and Deaths">
+								<h5 class="comic-title">Venom Lethal Protector - Life and Deaths</h5>
+								<p class="price">€15.99</p>
+								<button class="btn btn-primary btn-sm mx-3 mb-5" onclick="addToCart('Venom Lethal Protector - Life and Deaths', 15.99)">ADD TO BASKET</button>
+							</div>
+						</div>
+						
+						<!--Card 5-->
+						<div class="col-sm-4 col-md-2 border">
+							<div class="product-card text-center">
+								<img src="images/products/hulk1.png" class="img-fluid mt-5 mb-2" alt="Hulk: Red Hulk Omnibus">
+								<h5 class="comic-title">Hulk: Red Hulk Omnibus</h5>
+								<p class="price">€25.99</p>
+								<button class="btn btn-primary btn-sm mx-3 mb-5" onclick="addToCart('Hulk: Red Hulk Omnibus', 25.99)">ADD TO BASKET</button>
+							</div>
+						</div>
+
+						<!--Card 6-->
+						<div class="col-sm-4 col-md-2 border">
+							<div class="product-card text-center">
+								<img src="images/products/hulk2.png" class="img-fluid mt-5 mb-2" alt="Planet Hulk: Worldbreaker">
+								<h5 class="comic-title">Planet Hulk: Worldbreaker</h5>
+								<p class="price">€24.99</p>
+								<button class="btn btn-primary btn-sm mx-3 mb-5" onclick="addToCart('Planet Hulk: Worldbreaker', 24.99)">ADD TO BASKET</button>
+							</div>
+						</div>
+			</div>
+		</div>	
+
+			
+		<!-- Other products eg: Stationer-->	
+		<div class="container mt-5 mb-4 text-center">
+		 <h2 class="heading"> 
+		Collectibles
+		</h2> 
+		<a class="paragraph" href="html/products.html">Discover more products</a>
+		</p>
+		</div>
+		
+		<!--Other Product BootStrap Card-->
+		<div class="container bestseller-grid mt-3">
+			<div class="row">
+						<!--Card 1-->
+						<div class="col-sm-4 col-md-2 border">
+							<div class="product-card text-center">
+								<img src="images/mini/SpiderCharm-min.png" class="img-fluid mt-5 mb-2" alt="Spiderman 2 sides charm">
+								<h5 class="product-title">Spiderman 2 sides charm</h5>
+								<p class="price">€32.00</p>
+								<button class="btn btn-primary btn-sm mx-3 mb-5" onclick="addToCart('Spiderman 2 sides charm', 32.00)">ADD TO BASKET</button>
+							</div>
+						</div>
+
+						<!--Card 2-->
+						<div class="col-sm-4 col-md-2 border">
+							<div class="product-card text-center">
+								<img src="images/mini/CaptainAmNecklace-min.png" class="img-fluid mt-5 mb-2" alt="Captain America three colors necklace">
+								<h5 class="product-title">Captain America three colors necklace.</h5>
+								<p class="price">€19.90</p>
+								<button class="btn btn-primary btn-sm mx-3 mb-5" onclick="addToCart('Captain America three colors necklace.', 19.90)">ADD TO BASKET</button>
+							</div>
+						</div>
+						
+						
+						<!--Card 3-->
+						<div class="col-sm-4 col-md-2 border">
+							<div class="product-card text-center">
+								<img src="images/mini/MiniMarvelBag-min.png" class="img-fluid mt-5 mb-2" alt="Chibi marvel backpack">
+								<h5 class="product-title">Chibi marvel backpack</h5>
+								<p class="price">€42.90</p>
+								<button class="btn btn-primary btn-sm mx-3 mb-5" onclick="addToCart('Chibi marvel backpack', 42.90)">ADD TO BASKET</button>
+							</div>
+						</div>
+
+						<!--Card 4-->
+						<div class="col-sm-4 col-md-2 border">
+							<div class="product-card text-center">
+								<img src="images/mini/CaptainCharm-min.png" class="img-fluid mt-5 mb-2" alt="Captain America charm">
+								<h5 class="comic-title">Captain America charm</h5>
+								<p class="price">€28.00</p>
+								<button class="btn btn-primary btn-sm mx-3 mb-5" onclick="addToCart('Captain America charm', 28.00">ADD TO BASKET</button>
+							</div>
+						</div>
+						
+						<!--Card 5-->
+						<div class="col-sm-4 col-md-2 border">
+							<div class="product-card text-center">
+								<img src="images/mini/DeadpoolCharmBrazalet-min.png" class="img-fluid mt-5 mb-2" alt="Deadpool Charm">
+								<h5 class="product-title">Deadpool Charm.</h5>
+								<p class="price">€20.90</p>
+								<button class="btn btn-primary btn-sm mx-3 mb-5" onclick="addToCart('Hulk: Red Hulk Omnibus', 20.90)">ADD TO BASKET</button>
+							</div>
+						</div>
+
+						<!--Card 6-->
+						<div class="col-sm-4 col-md-2 border">
+							<div class="product-card text-center">
+								<img src="images/mini/SpiderCap-min.png" class="img-fluid mt-5 mb-2" alt="Spider-man cap">
+								<h5 class="comic-title">Planet Hulk: Worldbreaker</h5>
+								<p class="price">€23.90</p>
+								<button class="btn btn-primary btn-sm mx-3 mb-5" onclick="addToCart('Planet Hulk: Worldbreaker', 23.90)">ADD TO BASKET</button>
+							</div>
+						</div>
+			</div>
+		</div>	
+
+
+		<!-- News-->
+		
+		<div class="container mt-5">
+		    <div class="row text-center">
+		        <h2 class="heading">Comic News</h2>
+		        <a class="paragraph" href="html/News.html">All you want to know is HERE!</a>
+		        <img src="images/homepage/Comic_book2.jpg" class="img-fluid mx-auto d-block" alt="Comic News">
+		    </div>
+		</div>
+				
+		<!-- blog-->
+			
+		<div class="container mt-5" style="text-align: center;">
+			<h2 class="heading"> BLOG </h2> 
+			<a class="paragraph" href="html/blog.html">QueenComics Special for You</a>
+		</div>
+		
+		
+		<div class="container mb-4 mt-4">
+			<div class="row row-cols-1 row-cols-md-3 g-4">
+				<div class="col mb-4">
+					<div class="card h-100 text-center">
+						<img src="images/homepage/how-to-draw.jpg" class="img-thumbnail" alt="How to draw">
+						<div class="card-body">
+							<h2 class="card-title">How to draw</h2>
+							<p class="card-text">Discover the joy of drawing with our comprehensive guides for artists of all levels. From basic techniques to advanced skills, we break down the art of drawing into simple, achievable steps that transform beginners into confident creators.</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col mb-4">
+					<div class="card h-100 text-center">
+						<img src="images/blog/resource_1.jpg" class="img-thumbnail" alt="Sketch resource and template">
+						<div class="card-body">
+							<h2 class="card-title">Sketch resource and template</h2>
+							<p class="card-text">Dive into a treasure trove of design potential. Our Sketch resources and templates are more than just tools—they're your creative companions. From pixel-perfect UI kits to versatile design systems, these resources are engineered to turn your wildest design concepts into stunning realities.</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col mb-4">
+					<div class="card h-100 text-center">
+						<img src="images/homepage/comic-review.png" CLASS="img-thumbnail" alt="Comic reviews">
+						<div class="card-body">
+							<h2 class="card-title">Comic reviews</h2>
+							<p class="card-text">Where comic book passion meets critical insight. Whether you're a hardcore collector or casual reader, our reviews break down the stories, art, and cultural significance of today's most exciting comic releases.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		
+
 		
 		<!-- footer -->
 		<section class="bg-dark text-light">
-			<div class ="container" >
+			<div class ="container mt-3" >
 				<div class ="row g-4">
 				
 					<!-- Contact Information-->
