@@ -20,9 +20,11 @@
         .cart-item span {
             	flex: 1;
         }
-	.cart-box .h2{
+	#cart-box.h2{
 		color: #702931;
 		font-family: Playfair Display;
+		text-align: center;
+		
 	}
 
         .total {
