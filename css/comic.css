@@ -54,7 +54,7 @@
 }
 	
 
-/*All Heading session for the name of Spiderman....*/
+/*All Heading session for the name of Spiderman, Avengers....*/
 .category-heading {
 	font-family: Playfair Display;
 	cursor:pointer;
@@ -64,9 +64,6 @@
 .description{
 	font-family: Playfair Display;
 	color: gray;
-	display: flex;
-	align-items: center;
-	width: 500px;
 }
 		
 /* Carousel*/
