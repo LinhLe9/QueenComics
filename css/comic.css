@@ -39,7 +39,7 @@
 	text-align: right;
 }
 
-.close-btn {
+.close-cartBox-btn {  /* this is the CLOSE CART BOX buttom*/
 	background-color: #702931;
 	border: none;
 	color: white;
@@ -51,6 +51,14 @@
 .close-btn:active {
         color: #702931;
 	border: solid;
+}
+
+.close-btn {  /* this is the X buttom to remove item from cart*/
+	border: none;
+	color: #702931;
+	font-size: 18px;
+	font-family: Playfair Display;
+	cursor: pointer;
 }
 	
 
