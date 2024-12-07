@@ -16,7 +16,7 @@
         cartItem.classList.add('cart-item');
 
         cartItem.innerHTML = `${productName} €${productPrice}
-			<button class="close-btn" onclick="removeItem(this, ${productPrice})">X</button>`;
+			<button class="close-btn" onclick="removeItem(this, ${productPrice})"> x </button>`;
 
         
         document.getElementById('cart-items').appendChild(cartItem);
