@@ -1,4 +1,4 @@
-img-thumbnail {
+.img-thumbnail {
 	width: 100%; /* or a fixed value */
 	max-width: 600px;
   	height: auto; /* Maintains aspect ratio */
