@@ -16,8 +16,7 @@
 				font-family: Playfair Display;
 			}
 
-
-			/* add cart box*/
+ 			/* cart box*/
 			#cart-box {
 				display: none; /* hide it at first */
 				position: fixed;
