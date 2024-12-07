@@ -1,4 +1,4 @@
-.cart-box {
+#cart-box {
 	display: none; /* hide it at first */
 	position: fixed;
         top: 0px;
