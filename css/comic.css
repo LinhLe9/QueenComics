@@ -14,23 +14,26 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+		font-family: Playfair Display;
         }
 
         .cart-item span {
-            flex: 1;
+            	flex: 1;
         }
 	.cart-box .h2{
-		color: #dc3545;
+		color: #702931;
+		font-family: Playfair Display;
 	}
 
         .total {
-            font-weight: bold;
+            	font-weight: bold;
+		font-family: Playfair Display;
 		color: #222;
         }
         .close-btn {
             background-color: transparent;
             border: none;
-            color: #dc3545;
+            color: #702931;
             font-size: 18px;
             cursor: pointer;
         }
@@ -41,8 +44,8 @@
             outline: none;
         }
         .close-btn:active {
-            color: #dc3545;
-	border: solid;
+            color: #702931;
+	    border: solid;
         }
 	
 			
