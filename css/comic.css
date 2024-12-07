@@ -10,20 +10,12 @@
 	z-index: 9999; /* avoid it being blocked*/
 }
 
-.cart-box.active{
-	margin: 10px 0;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	font-family: "Playfair Display", serif;
-
-}
-
-.cart-item { /* so that the item names, prices can be distributed evenly*/
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    margin-bottom: 10px; 
+.cart-box .cart-item { { /* so that the item names, prices can be distributed evenly*/
+	    display: flex; 
+	    justify-content: space-between; 
+	    align-items: center; 
+	    margin-bottom: 10px;
+	   font-family: "Playfair Display", serif;
 }
 
 .cart-box h2 {
