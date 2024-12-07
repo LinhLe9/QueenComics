@@ -48,11 +48,6 @@
 	cursor: pointer;
 }
 
-.close-btn:active {
-        color: #702931;
-	border: solid;
-}
-
 .close-btn {  /* this is the X buttom to remove item from cart*/
 	border: none;
 	color: #702931;
