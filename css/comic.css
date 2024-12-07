@@ -1,58 +1,62 @@
-#cart-box {
-	display: none; /* hide it at first */
-	position: fixed;
-        top: 0px;
-        right: 0px;
-        width: 300px;
-        background-color: #E0E0E0;
-        padding: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	z-index: 9999; /* avoid it being blocked*/
-}
+		/* cart box*/
+			#cart-box {
+				display: none; /* hide it at first */
+				position: fixed;
+			        top: 0px;
+			        right: 0px;
+			        width: 300px;
+			        background-color: #E0E0E0;
+			        padding: 20px;
+			        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+				z-index: 9999; /* avoid it being blocked*/
+			}
 
-.cart-box .cart-item { { /* so that the item names, prices can be distributed evenly*/
-	    display: flex; 
-	    justify-content: space-between; 
-	    align-items: center; 
-	    margin-bottom: 10px;
-	   font-family: "Playfair Display", serif;
-}
-
-.cart-box h2 {
-	font-family: "Playfair Display", serif;
-	font-size: 20px;
-	font-weight: bold;
-	color:  #702931; 
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-.total {
-	font-weight: bold;
-	font-family: "Playfair Display", serif;
-	font-size: 18px;
-	color: #222;
-	text-align: right;
-}
-
-.close-cart {  /* this is the CLOSE CART BOX buttom*/
-	background-color: #702931;
-	border: none;
-	color: white;
-	font-size: 18px;
-	font-family: "Playfair Display", serif;
-	cursor: pointer;
-}
-
-.close-btn {  /* this is the X buttom to remove item from cart*/
-	border: none;
-	color: #702931;
-	font-size: 18px;
-	font-family: "Playfair Display", serif;
-	cursor: pointer;
-	text-align: right;
-}
-	
+			.cart-box{
+				margin: 10px 0;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				font-family: "Playfair Display", serif;
+			}
+			
+			.cart-item span {
+				flex: 1;
+			}
+			
+			.cart-box h2 {
+				font-family: "Playfair Display", serif;
+				font-size: 20px;
+				font-weight: bold;
+				color:  #702931; 
+				text-align: center;
+				margin-bottom: 20px;
+			}
+			
+			.total {
+				font-weight: bold;
+				font-family: "Playfair Display", serif;
+				font-size: 18px;
+				color: #222;
+				text-align: right;
+			}
+			
+			.close-cart {  /* this is the CLOSE CART BOX buttom*/
+				background-color: #702931;
+				border: none;
+				color: white;
+				font-size: 18px;
+				font-family: "Playfair Display", serif;
+				cursor: pointer;
+			}
+			
+			.close-btn {  /* this is the X buttom to remove item from cart*/
+				border: none;
+				color: #702931;
+				font-size: 18px;
+				font-family: "Playfair Display", serif;
+				cursor: pointer;
+				text-align: right;
+			}	
 
 /*All Heading session for the name of Spiderman, Avengers....*/
 .category-heading {
