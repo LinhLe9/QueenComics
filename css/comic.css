@@ -72,6 +72,8 @@
 	font-family: Playfair Display;
 	color: gray;
 	width: 75%;
+	display: flex;
+	align-items: center;
 }
 		
 /* Carousel*/
