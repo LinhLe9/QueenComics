@@ -102,6 +102,7 @@
 			height: 100%; 
 			text-align: center;
 			background-color: #F8F8F8;
+			object-fit: cover;
 		}
 
 		.comic-title{
