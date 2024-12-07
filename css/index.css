@@ -27,6 +27,9 @@
 			        padding: 20px;
 			        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 				z-index: 9999; /* avoid it being blocked*/
+			}
+
+			.cart-box{
 				margin: 10px 0;
 				display: flex;
 				justify-content: space-between;
