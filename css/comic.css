@@ -40,19 +40,12 @@
 }
 
 .close-btn {
-	background-color: transparent;
+	background-color: #702931;
 	border: none;
-	color: #702931;
+	color: white;
 	font-size: 18px;
+	font-family: Playfair Display;
 	cursor: pointer;
-}
-
-.close-btn:hover {
-	color: darkred;
-}
-
-.close-btn:focus {
-	outline: none;
 }
 
 .close-btn:active {
