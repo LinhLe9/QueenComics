@@ -19,8 +19,11 @@
 
 }
 
-.cart-item span {
-	flex: 1;
+.cart-item { /* so that the item names, prices can be distributed evenly*/
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 10px; 
 }
 
 .cart-box h2 {
