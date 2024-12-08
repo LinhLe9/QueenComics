@@ -136,5 +136,13 @@ main, footer, header {
 	font-family: sans-serif;
 }
 
+ #successMessage {
+      display: none;
+      margin-top: 20px;
+      color: blue; 
+      font-weight: bold;
+}
+
+
 
 
