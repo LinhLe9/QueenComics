@@ -1,6 +1,17 @@
+img {
+    transition: box-shadow 0.4s ease; /* light shadow down the picture*/
+}
+
+.containerImagen {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+
+}
 .BlockColour {
-  height: 25vh; /* Cada bloque ocupa 25% de la altura de la pantalla */
-  width: 100%;  /* Se extiende a todo el ancho */
+  height: 25vh; 
+  width: 100%; 
 }
 
 .Block1 {
