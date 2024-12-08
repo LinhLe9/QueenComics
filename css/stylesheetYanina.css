@@ -20,13 +20,21 @@ img:hover {
 body {
       margin: 0;
       padding: 0;
-      display: flex;
+      display: block;
       justify-content: center;
       align-items: center;
       background-color: #f3f3f3;
       color:#000000; /*Color for text*/
 }
-
+main, footer, header {
+  display: block;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column; /* Asegura disposición vertical */
+  width: 100%;
+}
 /*CARRUSEL*/
 .slider-container {
       width: 50%;
