@@ -86,7 +86,7 @@ select::-ms-expand {
 }
 select:-moz-focusring {
   color: transparent !important;
-  text-shadow: 0 0 0 var(--white);
+  text-shadow: 0 0 0 var(--Yellow);
 }
 textarea {
   resize: none;
@@ -123,7 +123,7 @@ ul {
 .my-form textarea {
   height: 170px;
 }
-.my-form ::placeholder {
+.my-form :placeholder {
   color: inherit;
   opacity: 2;
 }
