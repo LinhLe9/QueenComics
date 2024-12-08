@@ -9,12 +9,14 @@
 		<meta name="robots" content="index,follow">
 		<meta name="googlebot" content="index,follow">
 
-		
+		<!-- EXTERNAL STYLES -->
 		<title> QueensComic </title>	
 		<link rel="icon" href="../images/logo_icon.png" type="image/png">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+		
+		<!-- STYLES -->
 		<link rel="stylesheet" href="../css/stylesheet.css">
 		<link rel="stylesheet" href="../css/stylesheetAbout.css">
 	</head>
@@ -54,6 +56,8 @@
 		</nav>
 <!-- ---------------------------------------------------------------------INFORMATION BLOCK------------------------------------------------------------------------------------------------------------------------ -->		
 		<main><center>
+
+			<!------------------------------------------ OUR MISSION-------------------------------->
 			<div class="Block1">
 				<div>
 					<center>
@@ -94,7 +98,8 @@
 					</center>
 				</div>	
 			</div>
-				
+
+			<!---------------------------------------------------------- EXCLUSIVE ------------------------------------------->
   			<div class="Block2">
 				<div>
 					<center>
@@ -137,7 +142,7 @@
 			</div>
 				
 			</div>
-				
+			<!---------------------------------------------------------- MEET US ------------------------------------------->
   			<div class="Block3">
 				<h2 style="color: #ffffff;">Know more about the team...</h2>
 				<p style="color: #ffffff; font-style: italic"> Linh, Holiday, and Yanina were three classmates bound by a shared passion: their love for the plastic arts. In their small town, they noticed with sadness how creativity seemed to fade among the youth, consumed by technology and daily routines.
@@ -151,15 +156,15 @@
 				
 				  <div class="container mt-4">
 					<div class="row">
-					      <!-- Imagen 1 -->
+					      <!-- Profile 1 -->
 					      <div class="col-md-4">
 					        <img src="../images/AboutUsPicts/linhComicProfile.png" alt="IStudent A" class="img-fluid rounded border">
 					      </div>
-					      <!-- Imagen 2 -->
+					      <!-- profile 2 -->
 					      <div class="col-md-4">
 					        <img src="../images/AboutUsPicts/yaniProfile-min.png" alt="Student B" class="img-fluid rounded border">
 					      </div>
-					      <!-- Imagen 3 -->
+					      <!-- profile 3 -->
 					      <div class="col-md-4">
 					        <img src="../images/AboutUsPicts/profile-min.png" alt="Student C" class="img-fluid rounded border">
 					      </div>
@@ -175,9 +180,11 @@
 						<h5> Contact form.</h5>
 						<form class = "my-form" id ="contactUs" action="#" >
 							<div class="container"> 
+
+								<!-- from with a list of 6 elements -->
 								<h1>Get in touch ;)</h1>
 								<ul>
-									<li>
+									<li> <!-- first : select what they want to ask -->
 										<select>
 											<option selected disabled> Please choose an option</option>
 											<option>Request</option>
@@ -187,26 +194,26 @@
 											<option>Other...</option>
 										</select>
 									</li>
-									<li>
+									<li> <!-- second: full name -->
 										<div class = "grid grid-2">
 											<input type="text" placeholder = "Name" required>
 											<input type="text" placeholder = "Surname" required>
 										</div>
 									</li>
-									<li>
+									<li> <!-- third: email and phone -->
 										<div class = "grid grid-2">
 											<input type="email" placeholder="Email" required>
 											<input type="tel" placeholder="Phone">
 										</div>
 									</li>
-									
+									     <!-- fourth: message box -->
 									<li><textarea placeholder="Message"></textarea></li>
 										
-									<li>
+									<li> <!-- five: check box -->
 										<input type="checkbox" id="terms">
 										<label for ="terms">I read and accept the Terms and conditions</label>
 									</li>
-									<li>
+									<li> <!-- sixth: buttons -->
 										<div class="grid grid-3">
 											  
 											  <button class="btn-grid" type="submit" disabled>
