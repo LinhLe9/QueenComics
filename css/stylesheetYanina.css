@@ -32,7 +32,7 @@ main, footer, header {
 }
 .container {
   display: flex;
-  flex-direction: column; /* Asegura disposición vertical */
+  flex-direction: column; 
   width: 100%;
 }
 /*CARRUSEL*/
