@@ -171,32 +171,57 @@
 					
 				<div class ="container" >
 						<h3> Contact form.</h3>
-						<form  id ="contactUs" action="#" method = "POST">
-							<div class="row">
-								<!--Left column-->
-									<div class = "col-md-6 ">
-			
-								   		<label for="name">Name:</label>
-								  		<input type="text" id="name" name="user_name" /><br>
-			
-			
-								  		<label for="phone">Phone number:</label>
-								  		<input type="text" id="phone" name="user_phone" /><br>
-			
-								  		<label for="mail">E-mail:</label>
-								  		<input type="email" id="mail" name="user_email" /><br>
-									</div>
-								
-								<!-- Right column-->
-									<div class = "col-md-6 ">
-										<label for="subject">Subject:</label>
-										<textarea id="subject" name="user_subject"></textarea><br>
-			
-										<label for="msg">Message:</label>
-										<textarea id="msg" name="user_message"></textarea><br>
-										<button type="submit" class="ton">Submit</button>
-									</div>
-							</div>
+						<form class = ""my-form" id ="contactUs" action="#" >
+							<div class="container"> 
+								<h1>Get in touch ;)</h1>
+								<ul>
+									<li>
+										<select>
+											<option selected disabled> Please choose an option</option>
+											<option>Request</option>
+											<option>Subscription application</option>
+											<option>Other...</option>
+										</select>
+									</li>
+									<li>
+										<div class = "grid grid-2">
+											<input type="text" placeholder = "Name" required>
+											<input type="text" placeholder = "Surname" required>
+										</div>
+									</li>
+									<li>
+										<div class = "grid grid-2">
+											<input type="email" placeholder="Email" required>
+											<input type="tel" placeholder="Phone">
+										</div>
+									</li>
+									
+									<li><textarea placeholder="Message"></textarea></li>
+										
+									<li>
+										<input type="checkbox" id="terms">
+										<label for ="terms">...</label>
+									</li>
+									<li>
+										<div class="grid grid-3">
+											  <div class="required-msg">REQUIRED FIELDS</div>
+											  <button class="btn-grid" type="submit" disabled>
+											    <span class="back">
+											      <img src="IMG_SRC" alt="">
+											    </span>
+											    <span class="front">SUBMIT</span>
+											  </button>
+											  <button class="btn-grid" type="reset" disabled>
+											    <span class="back">
+											      <img src="IMG_SRC" alt="">
+											    </span>
+											    <span class="front">RESET</span>
+											  </button> 
+											</div>
+									</li>
+								</ul>
+							</div>	
+					
 						</form>
 				</div>
 
