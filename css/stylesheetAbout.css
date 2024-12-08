@@ -2,13 +2,7 @@ img {
     transition: box-shadow 0.4s ease; /* light shadow down the picture*/
 }
 
-.containerImagen {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 5px;
 
-}
 .BlockColour {
   height: 25vh; 
   width: 100%; 
