@@ -222,14 +222,14 @@ ul {
   transform: rotate(45deg);
 }
 @media screen and (min-width: 541px) {
-  .my-form input[type="checkbox"] + label::before {
-    top: 50%;
-    transform: translateY(-50%);
-  }
+	.my-form input[type="checkbox"] + label::before {
+    		top: 50%;
+    		transform: translateY(-50%);
+	}
   
-  .my-form input[type="checkbox"]:checked + label::after {
-    top: 3px;
-  }
+	.my-form input[type="checkbox"]:checked + label::after {
+   		 top: 3px;
+	}
 }
 .my-form *:disabled {
   cursor: default;
