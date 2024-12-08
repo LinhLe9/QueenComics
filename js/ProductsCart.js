@@ -28,13 +28,13 @@ function renderCart() {
                 div.className = 'cart-item';
                 div.innerHTML = `
                     <span>${item.product}</span>
-                    <span>$${item.price}</span>
-                    <button class="remove-btn" onclick="removeFromCart(${index})">Erased</button>
+                    <span class="euro">$${item.price}</span>
+                    <button class="remove-btn" onclick="removeFromCart(${index})">DELET</button>
                 `;
                 cartItems.appendChild(div);
           });
 
-          cartTotal.textContent = `Total: $${total}`;
+          cartTotal.textContent = `Total: €${total.toFixed(2)}`;
 }
 
 renderCart();
