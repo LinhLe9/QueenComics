@@ -60,7 +60,7 @@ main, footer, header {
       100% { transform: translateX(0); }
 }
 .carousel .card {
-    max-width: 400px;
+    max-width: 100px;
     margin: 0 auto;
 }
 .carousel-container {
@@ -97,9 +97,17 @@ main, footer, header {
             align-items: center;
         }
 .cart {
-            margin-top: 20px;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 300px;
+            max-height: 70vh;
+            overflow-y: auto;
             border: 1px solid #ddd;
+            background-color: white;
             padding: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
 }
 .cart-item {
             display: flex;
