@@ -196,7 +196,7 @@ ul {
   top: 6px;
   width: 18px;
   height: 18px;
-  border: 2px solid var(--white);
+  border: 2px solid var(--Yellow);
 }
 .my-form input[type="checkbox"]:checked + label::before {
   background: var(--red);
@@ -206,8 +206,8 @@ ul {
   top: 7px;
   width: 6px;
   height: 14px;
-  border-bottom: 2px solid var(--white);
-  border-right: 2px solid var(--white);
+  border-bottom: 2px solid var(--Yellow);
+  border-right: 2px solid var(--Yellow);
   transform: rotate(45deg);
 }
 @media screen and (min-width: 541px) {
@@ -220,3 +220,8 @@ ul {
     top: 3px;
   }
 }
+.my-form *:disabled {
+  cursor: default;
+  filter: blur(2px);
+}
+	
