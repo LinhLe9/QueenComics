@@ -4,7 +4,7 @@ img {
 
 img:hover {
 	transform: scale(1.05); /* "Zoom" */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .containerImagen {
@@ -140,8 +140,8 @@ body {
             text-align: right;
 }
 
-.euri{
-	fin-family: sans-serif;
+.euro{
+	font-family: sans-serif;
 }
 
 
