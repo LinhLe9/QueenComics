@@ -60,11 +60,11 @@ main, footer, header {
       100% { transform: translateX(0); }
 }
 .carousel .card {
-    max-width: 100px;
+    max-width: 500px;
     margin: 0 auto;
 }
 .carousel-container {
- margin-bottom: 500px;!important /*room btwn bars */
+ margin-bottom: 100px;!important /*room btwn bars */
 }
 
 .card {
