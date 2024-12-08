@@ -26,39 +26,6 @@ img:hover {
 	transform: scale(1.05); /* "Zoom" */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 
-.containerImagen {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 5px;
-
-}	
-.TwoCol {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 80%;  
-	background-color: #fbe9e7;
-	border: 2px solid #edbb99;/*edge*/
-	padding:20px 10px 10px 10px;
-	border-radius: 4px; 
-}
-
-.flexCol {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 40%;
-    margin:auto;
-}
-.ton{
-	display: inline-block;
-	width: 50px;
-	font-family: Arial, sans-serif;
-	font-weight: 50px;
-	padding: 15px 30px;
-	color: #fdfefe;/*White color*/
-	text-decoration: none;
-}
 .card {
       height: 350px; 
       display: flex;
