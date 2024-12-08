@@ -64,17 +64,17 @@ main, footer, header {
     margin: 0 auto;
 }
 .carousel-container {
- margin-bottom: 100px;!important /*room btwn bars */
+ margin-bottom: 70px;!important /*room btwn bars */
 }
 
 .card {
-      height: 350px; 
+      height: 500px; 
       display: flex;
       flex-direction: column;
       justify-content: space-between;
 }
 .card-img-top {
-      height: 200px; 
+      height: 300px; 
       object-fit: cover; 
 }
 .card-body {
