@@ -51,7 +51,7 @@ function validateInputs() {
     }
 
     return isValid; 
-}
+    }
 
 // linked to the form
 form.addEventListener("submit", function (event) {
