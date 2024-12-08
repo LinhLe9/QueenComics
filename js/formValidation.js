@@ -39,7 +39,12 @@ function validateInputs() {
     }
 
     //Message
+
+  // Build a message about the upload.
+    const form = document.getElementById('contactForm');
+    const successMessage = document.getElementById('successMessage');
     const msgValue = msg.value.trim();
+  
     if (msgValue === "") {
         alert("Please enter a message.");
         isValid = false;
@@ -53,4 +58,9 @@ form.addEventListener("submit", function (event) {
     if (!validateInputs()) {
         event.preventDefault(); // don't send the form if is not valid
     }
+successMessage.style.display = 'Your Form is being send';
+form.reset();
+setTimeout(() => {
+     successMessage.style.display = 'none';
+}, 4000); // 4seconds and the message is hidden
 });
