@@ -99,11 +99,6 @@ body {
             align-items: center;
         }
 .cart {
-            margin-top: 20px;
-            border: 1px solid #ddd;
-            padding: 10px;
-}
-.cart-item {
             position: fixed;
             top: 20px;
             right: 20px;
@@ -116,15 +111,17 @@ body {
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             z-index: 1000;
 }
-
-.cart-item{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin:5px 0;
+.cart-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 5px 0;
 }
+
 	
 .remove-btn {
+            background-color: red;
+            color: white;
             border: none;
             padding: 5px;
             cursor: pointer;
