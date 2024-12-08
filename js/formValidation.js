@@ -58,9 +58,9 @@ form.addEventListener("submit", function (event) {
     if (!validateInputs()) {
         event.preventDefault(); // don't send the form if is not valid
     }
-successMessage.style.display = 'Your Form is being send';
-form.reset();
-setTimeout(() => {
+  successMessage.style.display = 'Your Form is being send';
+  form.reset();
+  setTimeout(() => {
      successMessage.style.display = 'none';
-}, 4000); // 4seconds and the message is hidden
+  }, 4000); // 4seconds and the message is hidden
 });
