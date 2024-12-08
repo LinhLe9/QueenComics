@@ -14,8 +14,12 @@ img:hover {
 
 }	
 
-
-.btn{
+body {
+       font-family: Arial, sans-serif;
+       margin: 20px;
+       padding-right: 320px; 
+}
+.button{
 	display: inline-block;
 	width: 50px;
 	font-family: Arial, sans-serif;
